@@ -1,0 +1,334 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 529
+  ClientWidth = 337
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 337.000000000000000000
+    Size.Height = 479.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 2
+    TabOrder = 0
+    TabPosition = Bottom
+    Sizes = (
+      337s
+      430s
+      337s
+      430s
+      337s
+      430s
+      337s
+      430s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 56.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #20027#30028#38754
+      ExplicitSize.cx = 83.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object GridLayout1: TGridLayout
+        Align = Client
+        ItemHeight = 128.000000000000000000
+        ItemWidth = 128.000000000000000000
+        Orientation = Horizontal
+        Size.Width = 337.000000000000000000
+        Size.Height = 430.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Rectangle1: TRectangle
+          Size.Width = 128.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+          object Text1: TText
+            Align = Center
+            Size.Width = 81.000000000000000000
+            Size.Height = 73.000000000000000000
+            Size.PlatformDefault = False
+            Text = #22352#26631#36716#25442
+            OnClick = Text1Click
+          end
+        end
+        object Rectangle2: TRectangle
+          Position.X = 128.000000000000000000
+          Size.Width = 128.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Rectangle3: TRectangle
+          Position.Y = 128.000000000000000000
+          Size.Width = 128.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 68.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #22352#26631#36716#25442
+      ExplicitSize.cx = 83.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object EditLng: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        KeyboardType = NumberPad
+        ReturnKeyType = Done
+        MaxLength = 12
+        Text = '116.481499'
+        TextSettings.HorzAlign = Center
+        Position.X = 72.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 233.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = #36755#20837#32463#24230' '#20197#24230#20026#21333#20301
+        object Label1: TLabel
+          Align = Scale
+          Position.X = -56.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'GPS'#32463#24230
+        end
+      end
+      object EditLat: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        KeyboardType = NumberPad
+        Text = '39.990475'
+        TextSettings.HorzAlign = Center
+        Position.X = 72.000000000000000000
+        Position.Y = 90.000000000000000000
+        Size.Width = 233.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = #36755#20837#32428#24230' '#20197#24230#20026#21333#20301
+        KillFocusByReturn = True
+        object Label2: TLabel
+          Align = Scale
+          Position.X = -56.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'GPS'#32428#24230
+        end
+      end
+      object RoundRect1: TRoundRect
+        Fill.Kind = None
+        Position.X = 72.000000000000000000
+        Position.Y = 156.000000000000000000
+        Size.Width = 233.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        object Text2: TText
+          Align = HorzCenter
+          Position.X = 8.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Text = #36716'  '#25442
+          TextSettings.FontColor = claFirebrick
+          OnClick = Text2Click
+        end
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        KeyboardType = NumberPad
+        ReadOnly = True
+        TextSettings.FontColor = claBlue
+        TextSettings.HorzAlign = Center
+        Position.X = 72.000000000000000000
+        Position.Y = 288.000000000000000000
+        Size.Width = 233.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = '###.######'
+        StyledSettings = [Family, Size, Style]
+        KillFocusByReturn = True
+        object Label3: TLabel
+          Align = Scale
+          Position.X = -56.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = #39640#24503#32428#24230
+        end
+      end
+      object Edit3: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        KeyboardType = NumberPad
+        ReturnKeyType = Done
+        ReadOnly = True
+        MaxLength = 12
+        TextSettings.FontColor = claBlue
+        TextSettings.HorzAlign = Center
+        Position.X = 72.000000000000000000
+        Position.Y = 222.000000000000000000
+        Size.Width = 233.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = '###.######'
+        StyledSettings = [Family, Size, Style]
+        object Label4: TLabel
+          Align = Scale
+          Position.X = -56.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = #39640#24503#32463#24230
+        end
+      end
+      object Memo1: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        StyledSettings = [Family, Size, Style]
+        TextSettings.FontColor = claCrimson
+        TextSettings.WordWrap = True
+        Align = MostBottom
+        Position.Y = 349.000000000000000000
+        Size.Width = 337.000000000000000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Viewport.Width = 333.000000000000000000
+        Viewport.Height = 77.000000000000000000
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 72.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #22825#27668#39044#25253' '
+      ExplicitSize.cx = 83.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+    object TabItem4: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem4'
+      ExplicitSize.cx = 86.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+  object Rectangle4: TRectangle
+    Align = Top
+    Fill.Color = claSnow
+    Size.Width = 337.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object EditAPIkey: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 0
+      Text = '22d6d39e2e73e3618433ad5683639969'
+      TextSettings.FontColor = claBlue
+      TextSettings.HorzAlign = Center
+      Position.X = 75.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = #39640#24503' API Key'
+      StyledSettings = [Family, Size, Style]
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      StyledSettings = [Family, Size, Style]
+      Size.Width = 49.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'priortoolbuttonbordered'
+      TextSettings.FontColor = claChartreuse
+      OnClick = SpeedButton1Click
+    end
+  end
+  object Layout1: TLayout
+    Align = Contents
+    Size.Width = 337.000000000000000000
+    Size.Height = 529.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 4
+    object Rectangle5: TRectangle
+      Align = Contents
+      Opacity = 0.699999988079071000
+      Size.Width = 337.000000000000000000
+      Size.Height = 529.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Rectangle5Click
+    end
+    object Rectangle6: TRectangle
+      Align = Center
+      Fill.Color = claSnow
+      Size.Width = 225.000000000000000000
+      Size.Height = 145.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 8.000000000000000000
+      YRadius = 8.000000000000000000
+      object Text3: TText
+        Align = Center
+        Size.Width = 209.000000000000000000
+        Size.Height = 130.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object MultiView1: TMultiView
+    TargetControl = TabControl1
+    Mode = Drawer
+    Size.Width = 250.000000000000000000
+    Size.Height = 479.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+  end
+  object NetHTTPClient1: TNetHTTPClient
+    Asynchronous = False
+    ConnectionTimeout = 60000
+    ResponseTimeout = 60000
+    AllowCookies = True
+    HandleRedirects = True
+    UserAgent = 'Embarcadero URI Client/1.0'
+    Left = 40
+    Top = 402
+  end
+end
