@@ -41,6 +41,7 @@ type
     Rectangle5: TRectangle;
     Rectangle6: TRectangle;
     Text3: TText;
+    TabItem5: TTabItem;
     procedure FormCreate(Sender: TObject);
     procedure Text1Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);

@@ -15,10 +15,12 @@ object Form1: TForm1
     Size.Height = 479.000000000000000000
     Size.PlatformDefault = False
     TabHeight = 49.000000000000000000
-    TabIndex = 2
+    TabIndex = 3
     TabOrder = 0
     TabPosition = Bottom
     Sizes = (
+      337s
+      430s
       337s
       430s
       337s
@@ -225,7 +227,7 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 72.000000000000000000
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
@@ -239,15 +241,27 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = False
-      Size.Width = 69.000000000000000000
+      IsSelected = True
+      Size.Width = 68.000000000000000000
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
-      Text = 'TabItem4'
+      Text = #38745#24577#22320#22270
       ExplicitSize.cx = 86.000000000000000000
       ExplicitSize.cy = 49.000000000000000000
+    end
+    object TabItem5: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 68.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #22320#29702#22260#26639
     end
   end
   object Rectangle4: TRectangle
