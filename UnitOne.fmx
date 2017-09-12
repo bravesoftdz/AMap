@@ -15,7 +15,7 @@ object Form1: TForm1
     Size.Height = 479.000000000000000000
     Size.PlatformDefault = False
     TabHeight = 49.000000000000000000
-    TabIndex = 3
+    TabIndex = 0
     TabOrder = 0
     TabPosition = Bottom
     Sizes = (
@@ -33,7 +33,7 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 56.000000000000000000
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
@@ -44,36 +44,36 @@ object Form1: TForm1
       ExplicitSize.cy = 49.000000000000000000
       object GridLayout1: TGridLayout
         Align = Client
-        ItemHeight = 128.000000000000000000
-        ItemWidth = 128.000000000000000000
+        ItemHeight = 64.000000000000000000
+        ItemWidth = 64.000000000000000000
         Orientation = Horizontal
         Size.Width = 337.000000000000000000
         Size.Height = 430.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
         object Rectangle1: TRectangle
-          Size.Width = 128.000000000000000000
-          Size.Height = 128.000000000000000000
+          Size.Width = 64.000000000000000000
+          Size.Height = 64.000000000000000000
           Size.PlatformDefault = False
           object Text1: TText
-            Align = Center
-            Size.Width = 81.000000000000000000
-            Size.Height = 73.000000000000000000
+            Align = Client
+            Size.Width = 64.000000000000000000
+            Size.Height = 64.000000000000000000
             Size.PlatformDefault = False
             Text = #22352#26631#36716#25442
             OnClick = Text1Click
           end
         end
         object Rectangle2: TRectangle
-          Position.X = 128.000000000000000000
-          Size.Width = 128.000000000000000000
-          Size.Height = 128.000000000000000000
+          Position.X = 64.000000000000000000
+          Size.Width = 64.000000000000000000
+          Size.Height = 64.000000000000000000
           Size.PlatformDefault = False
         end
         object Rectangle3: TRectangle
-          Position.Y = 128.000000000000000000
-          Size.Width = 128.000000000000000000
-          Size.Height = 128.000000000000000000
+          Position.X = 128.000000000000000000
+          Size.Width = 64.000000000000000000
+          Size.Height = 64.000000000000000000
           Size.PlatformDefault = False
         end
       end
@@ -241,7 +241,7 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 68.000000000000000000
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False

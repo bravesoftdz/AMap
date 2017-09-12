@@ -149,7 +149,8 @@ begin
   Memo1.Lines.Text := ss.DataString;
 
   jsonObj := TJsonObject.Parse(ss.DataString) as TJsonObject;
-  if jsonObj['status'] = '1' then
+
+  if (jsonObj.S['status'] = '1') then
   begin
     lnglat := jsonObj['locations'];
     sa := lnglat.Split([',']);
